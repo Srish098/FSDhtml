@@ -1,8 +1,8 @@
 body{
-    background-color: aqua;
+    background-color: rgb(232, 242, 242);
 }
-/*
-div{
+
+/*div{
     background-color: bisque;
 }*/
 .container{
@@ -20,8 +20,48 @@ div{
     box-sizing: border-box;
     padding: 100px 50px 40px;
     border: 2px solid blue;
-}*/
-div> p{
+}
+div+p{
     background-color: yellow;
+
+}
+.myparagraph{
+    background-color: blueviolet;
+
+}
+#myid{
+    background-color: aqua;
+}*/
+.container{
+    background-color: aqua;
+    height: 400px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child1,.child2,.child3{
+    height: 200px;
+    border: 1px dotted rgb(243, 12, 12);
+    width: 300px;
+    display: flex;
+    
+    /*
+    margin: 20px;
+    padding: 20px;*/
+}
+
+.child1{
+    background-color: blueviolet;
+}
+.child2{
+flex-basis: 50%;
+    background-color: rgb(44, 229, 99);
+}
+.child3{
+    background-color: rgb(198, 247, 63);
 
 }
